@@ -1,0 +1,180 @@
+Portfolio> npm run build
+
+> my-portfolio@0.1.0 build
+> react-scripts build
+
+Creating an optimized production build...
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Browserslist: caniuse-lite is outdated. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+Compiled with warnings.
+
+[eslint] 
+src\Components\Contact.tsx
+  Line 5:9:    'BsGithub' is defined but never used    @typescript-eslint/no-unused-vars
+  Line 5:19:   'BsLinkedin' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 10:10:  'Info' is defined but never used        @typescript-eslint/no-unused-vars
+
+src\Components\Experience.tsx
+  Line 1:10:  'Text' is defined but never used                @typescript-eslint/no-unused-vars
+  Line 2:31:  'IconGitBranch' is defined but never used       @typescript-eslint/no-unused-vars
+  Line 2:46:  'IconGitCommit' is defined but never used       @typescript-eslint/no-unused-vars
+  Line 2:61:  'IconGitPullRequest' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 2:81:  'IconMessageDots' is defined but never used     @typescript-eslint/no-unused-vars
+
+src\Components\FloatingInput.tsx
+  Line 4:19:   Expected '!==' and instead saw '!='  eqeqeq
+  Line 6:329:  Expected '!==' and instead saw '!='  eqeqeq
+
+src\Components\Footer.tsx
+  Line 5:16:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\Components\FullProjectModal.tsx
+  Line 27:21:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+  Line 31:21:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\Components\ProjectCard.tsx
+  Line 9:11:  'btn' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+src\Components\SkillCard.tsx
+  Line 3:10:  'Avatar' is defined but never used  @typescript-eslint/no-unused-vars
+
+src\Components\Social.tsx
+  Line 6:16:  Using target="_blank" without rel="noreferrer" (which implies rel="noopener") is a security risk in older browsers: see https://mathiasbynens.github.io/rel-noopener/#recommendations  react/jsx-no-target-blank
+
+src\Components\Validation.tsx
+  Line 9:28:  Unnecessary escape character: \.  no-useless-escape
+  Line 9:33:  Unnecessary escape character: \-  no-useless-escape
+  Line 9:48:  Unnecessary escape character: \.  no-useless-escape
+  Line 9:50:  Unnecessary escape character: \-  no-useless-escape
+
+src\Components\magicui\Particles.tsx
+  Line 10:10:  'MousePosition' is already defined                                                                                             @typescript-eslint/no-redeclare 
+  Line 82:6:   React Hook useEffect has missing dependencies: 'animate' and 'initCanvas'. Either include them or remove the dependency array  react-hooks/exhaustive-deps     
+  Line 86:6:   React Hook useEffect has a missing dependency: 'onMouseMove'. Either include it or remove the dependency array                 react-hooks/exhaustive-deps     
+  Line 90:6:   React Hook useEffect has a missing dependency: 'initCanvas'. Either include it or remove the dependency array                  react-hooks/exhaustive-deps     
+
+src\Components\magicui\icon-cloud.tsx
+  Line 84:28:  Comments inside children section of tag should be placed inside braces  react/jsx-no-comment-textnodes
+
+src\User.tsx
+  Line 2:27:  'IconBrandInstagram' is defined but never used  @typescript-eslint/no-unused-vars
+  Line 2:47:  'IconBrandLeetcode' is defined but never used   @typescript-eslint/no-unused-vars
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+File sizes after gzip:
+  37.09 kB   build\static\css\main.b1dd502a.css
+  1.78 kB    build\static\js\453.acca0757.chunk.js
+
+The project was built assuming it is hosted at /Portfolio/.
+You can control this with the homepage field in your package.json.
+
+The build folder is ready to be deployed.
+
+Find out more about deployment here:
+
+  https://cra.link/deployment
+
+PS G:\7.MERN_Projects\Portfolio>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Strucure
+Portfolio/
+  -.git
+  -build/
+     static/
+       css/
+       js/
+       media/
+     asset-manifest.json
+     favicon.ico        
+     favicon2.png       
+     favicon3.webp      
+     index.html
+     logo192.png        
+     logo512.png        
+     manifest.json      
+     profile.png        
+     Resume.pdf
+     robots.txt
+  -node_modules      
+  -public/
+     favicon.ico
+     favicon2.png
+     favicon3.webp
+     index.html
+     logo192.png
+     logo512.png
+     manifest.json
+     profile.png
+     Resume.pdf
+     robots.txt
+  -src/
+    App.css
+    App.test.tsx
+    App.tsx
+    Firebase.tsx
+    index.css
+    index.tsx
+    logo.svg
+    react-app-env.d.ts
+    reportWebVitals.ts
+    setupTests.ts
+    User.tsx
+    Projects
+    Components
+       Icons/
+       magicui/
+       About.tsx
+       About.tsx
+       Contact.tsx
+       Education.tsx
+       Experience.tsx
+       FloatingInput.tsx
+       Footer.tsx
+       FullProjectModal.tsx
+       Header.tsx
+       HomePage.tsx
+       Loader.tsx
+       Mail.tsx
+       profile.png
+       ProjectCard.tsx
+       Projects.tsx
+       Resume.pdf
+       ResumeViewer.tsx
+       SideBar.tsx
+       SkillCard.tsx
+       Skills.tsx
+       Social.tsx
+       Validation.tsx
+  -.gitignore
+  -.hintrc
+  -package-lock.json
+  -package.json
+  -README.md
+  -Run_Project
+  -Source.txt
+  -tailwind.config.js
+  -tsconfig.jsonjson

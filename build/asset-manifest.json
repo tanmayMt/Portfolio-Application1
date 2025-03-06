@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.243c2b04.css",
+    "main.js": "/Portfolio/static/js/main.cd94aad2.js",
+    "static/js/453.acca0757.chunk.js": "/Portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/TourBookingWeb.png": "/Portfolio/static/media/TourBookingWeb.b1dda9dd64258b476ebe.png",
+    "static/media/MedicineStore2.png": "/Portfolio/static/media/MedicineStore2.b2ad6c4955e2d6aeefdd.png",
+    "static/media/ElevateBeauty.png": "/Portfolio/static/media/ElevateBeauty.d136d77bfc7efccfcd2f.png",
+    "static/media/Portfolio.png": "/Portfolio/static/media/Portfolio.c12b74f8d74934b37e51.png",
+    "static/media/LoginRegistrationSystem.png": "/Portfolio/static/media/LoginRegistrationSystem.afd6f80225f921a61eff.png",
+    "static/media/Python.png": "/Portfolio/static/media/Python.d7a21d969a68b01c2b64.png",
+    "static/media/StudentManagementSystem.png": "/Portfolio/static/media/StudentManagementSystem.49a0716a6f761aef4d4a.png",
+    "static/media/profile.png": "/Portfolio/static/media/profile.8ff9ef9db71cb53148fc.png",
+    "static/media/DoctorAppointmentSystem.png": "/Portfolio/static/media/DoctorAppointmentSystem.7856cf67022ee56fcd0d.png",
+    "static/media/BillingSystem.png": "/Portfolio/static/media/BillingSystem.13acd83860c61f00eb92.png",
+    "static/media/Design Analysis & Algorithm.png": "/Portfolio/static/media/Design Analysis & Algorithm.2258a720ca31cda2e5b5.png",
+    "static/media/Java.png": "/Portfolio/static/media/Java.0f5085ef768f696676da.png",
+    "static/media/C.png": "/Portfolio/static/media/C.8c9ebfca999db25aa7ba.png",
+    "static/media/Postman.png": "/Portfolio/static/media/Postman.6e5519744542e4cf94a3.png",
+    "static/media/VSCode.png": "/Portfolio/static/media/VSCode.ec0e2a1f0d2cde844adb.png",
+    "static/media/ExpressJS.png": "/Portfolio/static/media/ExpressJS.51c56d61fe7b2ccedeb2.png",
+    "static/media/C++.png": "/Portfolio/static/media/C++.e71fd381ff2117b50811.png",
+    "static/media/MySQL.png": "/Portfolio/static/media/MySQL.32d0719eb44b2226ac4c.png",
+    "static/media/MongoDB.png": "/Portfolio/static/media/MongoDB.e1afb73651b5a5c94406.png",
+    "static/media/MongoDBCompass.png": "/Portfolio/static/media/MongoDBCompass.aacbd2919f2b7caf902f.png",
+    "static/media/Github.png": "/Portfolio/static/media/Github.eba2ecb9e7675e26420d.png",
+    "static/media/Springboot.png": "/Portfolio/static/media/Springboot.953ee24309fa38748981.png",
+    "static/media/PHP.png": "/Portfolio/static/media/PHP.783a338297389dc8ab68.png",
+    "index.html": "/Portfolio/index.html",
+    "main.243c2b04.css.map": "/Portfolio/static/css/main.243c2b04.css.map",
+    "main.cd94aad2.js.map": "/Portfolio/static/js/main.cd94aad2.js.map",
+    "453.acca0757.chunk.js.map": "/Portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.243c2b04.css",
+    "static/js/main.cd94aad2.js"
+  ]
+}

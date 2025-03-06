@@ -1,0 +1,58 @@
+vercel login
+Vercel CLI 41.3.0
+? Log in to Vercel Continue with GitHub
+
+> Success! GitHub authentication complete for tanmoy587d@gmail.com
+> Congratulations! You are now logged in. In order to deploy something, run `vercel`.
+> 💡 Connect your Git Repositories to deploy every branch push automatically (https://vercel.link/git).
+> PS G:\7.MERN_Projects\Portfolio> vercel
+> Vercel CLI 41.3.0
+> ? Set up and deploy “G:\7.MERN_Projects\Portfolio”? yes
+> ? Which scope should contain your project? Tanmay Samanta's projects
+> ? Link to existing project? no
+> ? What’s your project’s name? portfolio
+> ? In which directory is your code located? ./
+> Local settings detected in vercel.json:
+> Auto-detected Project Settings (Create React App):
+
+- Build Command: react-scripts build
+- Development Command: react-scripts start
+- Install Command: `yarn install`, `pnpm install`, `npm install`, or `bun install`
+- Output Directory: build
+  ? Want to modify these settings? no
+  🔗 Linked to tanmay-samantas-projects/portfolio (created .vercel and added it to .gitignore)
+  🔍 Inspect: https://vercel.com/tanmay-samantas-projects/portfolio/mcreLC7VwqMk4uYbsL3u9p5vU58Z [14s]
+  ✅ Production: https://portfolio-ph5lvw4c1-tanmay-samantas-projects.vercel.app [14s]
+  📝 Deployed to production. Run `vercel --prod` to overwrite later (https://vercel.link/2F).
+  💡 To change the domain or build command, go to https://vercel.com/tanmay-samantas-projects/portfolio/settings
+
+  You can redeploy your modified code on Vercel easily. Follow these steps:
+
+1. Commit Your Changes (Recommended)
+   If your project is linked to GitHub, commit your changes:
+
+sh
+Copy
+Edit
+git add .
+git commit -m "Updated code"
+git push origin main
+Vercel will automatically deploy the latest changes if the project is linked to GitHub.
+
+2. Redeploy Using Vercel CLI (If Not Using GitHub)
+   If you deployed manually using Vercel CLI, just run:
+
+sh
+Copy
+Edit
+vercel --prod
+This will redeploy your project with the latest changes.
+
+3. Check Your Live URL
+   Once deployed, visit:
+
+arduino
+Copy
+Edit
+https://your-project-name.vercel.app
+Your updated portfolio should be live! 🚀
