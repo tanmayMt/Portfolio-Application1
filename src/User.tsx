@@ -37,6 +37,15 @@ const ProjectInfo = [
         github: "https://github.com/tanmayMt/Doctor-Appointment-System-using_MERN"
     },
     {
+        title: "Blog Post Application",
+        desc: "Blog Application using MERN is a full-stack web application built with MongoDB, Express.js, React.js, and Node.js. It allows users to create, read, update, and delete (CRUD) blog posts. Users can add comments, and the app ensures secure data storage using MongoDB. 🚀",
+        image: RestaurantReservationSystem,
+        live: true,
+        technologies: ["NodeJS","ExpessJS","React","MongoDB","Git"],
+        link: "https://blog-application-using-mern.vercel.app",
+        github: "https://github.com/tanmayMt/blog-application-using-MERN"
+    },    
+    {
         title: "Student Management System",
         desc: "Student Management System is a software application used to manage information about students in an educational institution.",
         image: StudentManagementSystem,
@@ -64,15 +73,6 @@ const ProjectInfo = [
         github: "https://github.com/tanmayMt/Restaurant-Reservation-System-Using-MERN"
     },
     {
-        title: "Elevate Beauty",
-        desc: "This web application that personalizes product recommendations based on user quiz results. Built with modern web technologies, it integrates an engaging quiz interface to understand user preferences and provides tailored beauty product suggestions. It combines user interactivity with data-driven personalization to enhance the shopping experience.",
-        image: ElevateBeauty,
-        live: true,
-        technologies: ["NodeJS","ExpessJS","React","MongoDB","Git"],
-        link: "https://github.com/tanmayMt/elevate-beauty",
-        github: "https://github.com/tanmayMt/elevate-beauty"
-    },
-    {
         title: "Portfolio Web Application",
         desc: "Portfolio Website helps you create and manage a website specifically designed to showcase your work, skills, and experience. It's essentially an online resume builder with a focus on visual presentation.",
         image: PortfolioApplication,
@@ -80,6 +80,15 @@ const ProjectInfo = [
         technologies: ["React", "Springboot", "Tailwind", "Heroicons", "Firebase", "MongoDB"],
         link: "https://client-livid-xi.vercel.app",
         github: "https://github.com/tanmayMt/Portfolio-Application-Project-using-MERN"
+    },
+    {
+        title: "Elevate Beauty",
+        desc: "This web application that personalizes product recommendations based on user quiz results. Built with modern web technologies, it integrates an engaging quiz interface to understand user preferences and provides tailored beauty product suggestions. It combines user interactivity with data-driven personalization to enhance the shopping experience.",
+        image: ElevateBeauty,
+        live: true,
+        technologies: ["NodeJS","ExpessJS","React","MongoDB","Git"],
+        link: "https://photos.google.com/album/AF1QipPcJV2Pm9kTUsGRKpQXoyO6TIw_sLypyQ-DXjas/photo/AF1QipMMnj4p-j8LmNxRvbVAPDKXXwG-LBQ20tsMsd82",
+        github: "https://github.com/tanmayMt/elevate-beauty"
     },
     {
         title: "Login & Registration System",
