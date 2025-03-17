@@ -9,6 +9,7 @@ import ElevateBeauty from './Projects/ElevateBeauty.png';
 import RestaurantReservationSystem from './Projects/RestaurantReservationSystem.png';
 import LoginRegistrationSystem from './Projects/LoginRegistrationSystem.png';
 import BillingSystem from './Projects/BillingSystem.png';
+import BlogApplication from './Projects/BlogApplication.png';
 
 const Info = {
     name: "Tanmay Samanta",
@@ -39,7 +40,7 @@ const ProjectInfo = [
     {
         title: "Blog Post Application",
         desc: "Blog Application using MERN is a full-stack web application built with MongoDB, Express.js, React.js, and Node.js. It allows users to create, read, update, and delete (CRUD) blog posts. Users can add comments, and the app ensures secure data storage using MongoDB. 🚀",
-        image: RestaurantReservationSystem,
+        image: BlogApplication ,
         live: true,
         technologies: ["NodeJS","ExpessJS","React","MongoDB","Git"],
         link: "https://blog-application-using-mern.vercel.app",
