@@ -52,17 +52,8 @@ const ProjectInfo = [
         image: StudentManagementSystem,
         live: false,
         technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
-        link: "https://github.com/tanmayMt/Student_Management_System_using_Spring_Boot",
+        link: "https://student-management-system-using-mern.vercel.app",
         github: "https://github.com/tanmayMt/Student_Management_System_using_Spring_Boot"
-    },
-    {
-        title: "Tour Booking Website",
-        desc: "Tour booking system helps tour operators and travel agencies manage tours and reservations. It essentially automates the booking process for both the business and the customer.",
-        image: TourBookingWebsite,
-        live: false,
-        technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
-        link: "https://tour-booking-project-using-mern.vercel.app",
-        github: "https://github.com/tanmayMt/Tour-Booking-Project-using-MERN"
     },   
     {
         title: "Restaurant Reservation System",
@@ -72,6 +63,15 @@ const ProjectInfo = [
         technologies: ["NodeJS","ExpessJS","React","MongoDB","Git"],
         link: "https://restaurant-reservation-system-using-mern.vercel.app",
         github: "https://github.com/tanmayMt/Restaurant-Reservation-System-Using-MERN"
+    },
+    {
+        title: "Tour Booking Website",
+        desc: "Tour booking system helps tour operators and travel agencies manage tours and reservations. It essentially automates the booking process for both the business and the customer.",
+        image: TourBookingWebsite,
+        live: false,
+        technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
+        link: "https://tour-booking-project-using-mern.vercel.app",
+        github: "https://github.com/tanmayMt/Tour-Booking-Project-using-MERN"
     },
     {
         title: "Portfolio Web Application",
