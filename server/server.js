@@ -9,10 +9,21 @@ const app = express();
 // MongoDB connection
 connectDB();
 
+
 // ✅ CORS Configuration
+const allowedOrigins = [
+    "https://portfolio-three-lemon-18.vercel.app",
+    "https://portfolio1-three-silk.vercel.app"
+];
+
 const corsOptions = {
-    // origin: "http://localhost:3000", // Allow frontend requests
-    origin: "https://portfolio1-three-silk.vercel.app",
+    origin: (origin, callback) => {
+        if (!origin || allowedOrigins.includes(origin)) {
+            callback(null, true);
+        } else {
+            callback(new Error("Not allowed by CORS"));
+        }
+    },
     methods: "GET,POST,PUT,DELETE",
     credentials: true // Allow cookies and authentication headers
 };
