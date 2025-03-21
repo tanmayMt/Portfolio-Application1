@@ -11,8 +11,8 @@ connectDB();
 
 // ✅ CORS Configuration
 const corsOptions = {
-    origin: "http://localhost:3000", // Allow frontend requests
-    // origin: "https://student-management-system-using-mern.vercel.app",
+    // origin: "http://localhost:3000", // Allow frontend requests
+    origin: "https://portfolio1-three-silk.vercel.app",
     methods: "GET,POST,PUT,DELETE",
     credentials: true // Allow cookies and authentication headers
 };
