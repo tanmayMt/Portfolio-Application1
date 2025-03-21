@@ -17,7 +17,7 @@ const HomePage = () => {
     useEffect(()=>{
         setTimeout(()=>{
             setLoading(false);
-        }, 5000) 
+        }, 900) 
     }, [])
     return <div className={` focus-visible:[&_button]:!outline-none min-h-[100dvh] ${loading?"flex":""} items-center overflow-hidden justify-center`}>
 {   loading!==true?<>
