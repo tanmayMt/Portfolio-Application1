@@ -5,7 +5,6 @@ import { IconArrowRight, IconTopologyStar3 } from "@tabler/icons-react";
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import {BsGithub, BsLinkedin } from "react-icons/bs";
 import { validateForm } from "./Validation";
-import axios from "axios";
 import { collection, addDoc } from "firebase/firestore"; 
 import { db } from "../Firebase";
 import toast from "react-hot-toast";
@@ -27,60 +26,26 @@ const Contact = () => {
         setFormData({ ...formData, [id]: value });
         setFormError({ ...formError, [id]: validateForm(id, value)})
     }
-    
-    // const handleSubmit=async()=>{
-    //     let valid=true;
-    //     let newFormError:{[key:string]:string}={};
-    //     for(let key in formData){
-    //         const error=validateForm(key, formData[key]);
-    //         if(error.length>0){
-    //             newFormError[key]=error;
-    //             valid=false;
-    //         }
-    //     }
-    //     setFormError(newFormError);
-    //     if(valid){
-    //         setFormData(form);
-    //         toast.success('Submitted Successfully!', {duration:4000});
-    //         await addDoc(collection(db, "portfolio"), formData);
-    //     }
-    //     else{
-    //         toast.error('Some error occurred!', {duration:4000})
-    //     }
-    // }
-
-const handleSubmit = async () => {
-  let valid = true;
-  let newFormError: { [key: string]: string } = {};
-  
-  for (let key in formData) {
-    const error = validateForm(key, formData[key]);
-    if (error.length > 0) {
-      newFormError[key] = error;
-      valid = false;
+    const handleSubmit=async()=>{
+        let valid=true;
+        let newFormError:{[key:string]:string}={};
+        for(let key in formData){
+            const error=validateForm(key, formData[key]);
+            if(error.length>0){
+                newFormError[key]=error;
+                valid=false;
+            }
+        }
+        setFormError(newFormError);
+        if(valid){
+            setFormData(form);
+            toast.success('Submitted Successfully!', {duration:4000});
+            await addDoc(collection(db, "portfolio"), formData);
+        }
+        else{
+            toast.error('Some error occurred!', {duration:4000})
+        }
     }
-  }
-
-  setFormError(newFormError);
-  
-  if (valid) {
-    try {
-      const response = await axios.post(
-        "http://localhost:9004/contact", formData);
-        // `${process.env.REACT_APP_API_URL}`, formData);   
-      
-      if (response.status === 200) {
-        toast.success("Form submitted and API request successful!");
-        setFormData(form);
-      }
-    } catch (error) {
-      console.error("Error sending request:", error);
-      toast.error("Error sending API request!");
-    }
-  } else {
-    toast.error("Validation error. Please correct the fields.");
-  }
-};
 
     const btn = useMatches({
         xsm: 'xs',
@@ -98,6 +63,11 @@ const handleSubmit = async () => {
             <FloatingInput id="message" name="Message" value={formData.message} handleChange={handleChange}  error={formError.message}/>
             <Button fullWidth onClick={handleSubmit} rightSection={<IconArrowRight size={20} />}
                 className="!text-bgColor !font-bold " variant="filled" size={btn} radius="lg" color="#64FFDA">Send</Button>
+            {/* <h6>
+                Contact With
+                <BsLinkedin color="blue" size={30} className="ms-2" />
+                <BsGithub color="black" size={30} className="ms-2" />
+            </h6> */}
             
                 <div className="mt-10 mb-5 font-mono flex flex-col gap-2 items-center">
                     <h2 className="text-white font-semibold text-lg mb-2">
@@ -111,6 +81,7 @@ const handleSubmit = async () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-textColor hover:scale-110 transition-transform duration-200"
+                                //className="md-mx:flex hidden text-textColor gap-8 sm-mx:gap-6"
                             >
                                 <social.icon size={32} />
                             </a>

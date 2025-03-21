@@ -1,0 +1,36 @@
+const express = require("express");
+const cors = require("cors");
+const bodyParser = require("body-parser");
+const contactRoutes = require("./routes/contactRoutes");
+const connectDB = require("./config/db");
+require("dotenv").config();
+
+const app = express();
+// MongoDB connection
+connectDB();
+
+// ✅ CORS Configuration
+const corsOptions = {
+    origin: "http://localhost:3000", // Allow frontend requests
+    // origin: "https://student-management-system-using-mern.vercel.app",
+    methods: "GET,POST,PUT,DELETE",
+    credentials: true // Allow cookies and authentication headers
+};
+
+// Middleware
+app.use(cors(corsOptions));
+// app.use(cors());
+// Middleware to Parse json data
+app.use(bodyParser.json());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true })); // Add this line
+
+// Routes
+app.get("/",(req,res)=>{
+    res.send("<h1>Welcome To Portfolio1 Application Server</h1><br>")
+});
+app.use("/contact", contactRoutes);
+
+
+const PORT = process.env.PORT || 9004;
+app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
