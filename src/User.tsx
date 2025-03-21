@@ -38,6 +38,15 @@ const ProjectInfo = [
         github: "https://github.com/tanmayMt/Doctor-Appointment-System-using_MERN"
     },
     {
+        title: "Student Management System",
+        desc: "Student Management System is a software application used to manage information about students in an educational institution.",
+        image: StudentManagementSystem,
+        live: false,
+        technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
+        link: "https://github.com/tanmayMt/Student_Management_System_using_Spring_Boot",
+        github: "https://github.com/tanmayMt/Student_Management_System_using_Spring_Boot"
+    },
+    {
         title: "Blog Post Application",
         desc: "Blog Application using MERN is a full-stack web application built with MongoDB, Express.js, React.js, and Node.js. It allows users to create, read, update, and delete (CRUD) blog posts. Users can add comments, and the app ensures secure data storage using MongoDB. 🚀",
         image: BlogApplication ,
@@ -47,13 +56,13 @@ const ProjectInfo = [
         github: "https://github.com/tanmayMt/blog-application-using-MERN"
     },    
     {
-        title: "Student Management System",
-        desc: "Student Management System is a software application used to manage information about students in an educational institution.",
-        image: StudentManagementSystem,
+        title: "Tour Booking Website",
+        desc: "Tour booking system helps tour operators and travel agencies manage tours and reservations. It essentially automates the booking process for both the business and the customer.",
+        image: TourBookingWebsite,
         live: false,
-        technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
-        link: "https://student-management-system-using-mern.vercel.app",
-        github: "https://github.com/tanmayMt/Student_Management_System_using_Spring_Boot"
+        technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
+        link: "https://tour-booking-project-using-mern.vercel.app",
+        github: "https://github.com/tanmayMt/Tour-Booking-Project-using-MERN"
     },   
     {
         title: "Restaurant Reservation System",
@@ -65,13 +74,13 @@ const ProjectInfo = [
         github: "https://github.com/tanmayMt/Restaurant-Reservation-System-Using-MERN"
     },
     {
-        title: "Tour Booking Website",
-        desc: "Tour booking system helps tour operators and travel agencies manage tours and reservations. It essentially automates the booking process for both the business and the customer.",
-        image: TourBookingWebsite,
-        live: false,
-        technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
-        link: "https://tour-booking-project-using-mern.vercel.app",
-        github: "https://github.com/tanmayMt/Tour-Booking-Project-using-MERN"
+        title: "Elevate Beauty",
+        desc: "This web application that personalizes product recommendations based on user quiz results. Built with modern web technologies, it integrates an engaging quiz interface to understand user preferences and provides tailored beauty product suggestions. It combines user interactivity with data-driven personalization to enhance the shopping experience.",
+        image: ElevateBeauty,
+        live: true,
+        technologies: ["NodeJS","ExpessJS","React","MongoDB","Git"],
+        link: "https://github.com/tanmayMt/elevate-beauty",
+        github: "https://github.com/tanmayMt/elevate-beauty"
     },
     {
         title: "Portfolio Web Application",
@@ -81,15 +90,6 @@ const ProjectInfo = [
         technologies: ["React", "Springboot", "Tailwind", "Heroicons", "Firebase", "MongoDB"],
         link: "https://client-livid-xi.vercel.app",
         github: "https://github.com/tanmayMt/Portfolio-Application-Project-using-MERN"
-    },
-    {
-        title: "Elevate Beauty",
-        desc: "This web application that personalizes product recommendations based on user quiz results. Built with modern web technologies, it integrates an engaging quiz interface to understand user preferences and provides tailored beauty product suggestions. It combines user interactivity with data-driven personalization to enhance the shopping experience.",
-        image: ElevateBeauty,
-        live: true,
-        technologies: ["NodeJS","ExpessJS","React","MongoDB","Git"],
-        link: "https://photos.google.com/album/AF1QipPcJV2Pm9kTUsGRKpQXoyO6TIw_sLypyQ-DXjas/photo/AF1QipMMnj4p-j8LmNxRvbVAPDKXXwG-LBQ20tsMsd82",
-        github: "https://github.com/tanmayMt/elevate-beauty"
     },
     {
         title: "Login & Registration System",
@@ -128,6 +128,10 @@ const SkillInfo = [
     {
         title: "Framework",
         skills: ["NodeJS", "ExpressJS","Springboot" ]
+    },
+    {
+        title: "APIs",
+        skills: ["REST API"]
     },
     {
        title: "Libraries/Frontend Technologies",
