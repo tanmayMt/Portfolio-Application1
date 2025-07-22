@@ -10,6 +10,7 @@ import RestaurantReservationSystem from './Projects/RestaurantReservationSystem.
 import LoginRegistrationSystem from './Projects/LoginRegistrationSystem.png';
 import BillingSystem from './Projects/BillingSystem.png';
 import BlogApplication from './Projects/BlogApplication.png';
+import DevToolboxApp from './Projects/DevToolboxApp.png';
 
 const Info = {
     name: "Tanmay Samanta",
@@ -63,13 +64,22 @@ const ProjectInfo = [
         technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
         link: "https://tour-booking-project-using-mern.vercel.app",
         github: "https://github.com/tanmayMt/Tour-Booking-Project-using-MERN"
-    },   
+    },
+    {
+        title: "Dev Toolbox App",
+        desc: "A full-stack web application that allows users to paste raw JSON data, validate and format it, and optionally view previously formatted JSON history. 🔧 Tech Stack Frontend: React.js, Axios, Bootstrap Backend: Node.js, Express.js, MongoDB (Mongoose)",
+        image: DevToolboxApp,
+        live: false,
+        technologies: ["Node.js", "Express", "MongoDB", "ReactJS", "Bootstrap"],
+        link: "https://dev-toolbox-beige.vercel.app",
+        github: "https://github.com/tanmayMt/dev-toolbox-app"
+    },
     {
         title: "Restaurant Reservation System",
         desc: "A web-based restaurant reservation system where customers can book tables online, and restaurant admins can manage reservations.",
         image: RestaurantReservationSystem,
         live: true,
-        technologies: ["NodeJS","ExpessJS","React","MongoDB","Git"],
+        technologies: ["NodeJS","ExpressJS","React","MongoDB","Git"],
         link: "https://restaurant-reservation-system-using-mern.vercel.app",
         github: "https://github.com/tanmayMt/Restaurant-Reservation-System-Using-MERN"
     },
