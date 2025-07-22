@@ -62,7 +62,7 @@ const ProjectInfo = [
         image: TourBookingWebsite,
         live: false,
         technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
-        link: "https://tour-booking-project-using-mern.vercel.app",
+        link: "https://client-five-kappa-68.vercel.app/",
         github: "https://github.com/tanmayMt/Tour-Booking-Project-using-MERN"
     },
     {
