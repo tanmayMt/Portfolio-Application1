@@ -44,7 +44,7 @@ const ProjectInfo = [
         image: StudentManagementSystem,
         live: false,
         technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
-        link: "https://student-management-system-using-mern.vercel.app",
+        link: "https://client-xi-henna.vercel.app",
         github: "https://github.com/tanmayMt/Student_Management_System_using_Spring_Boot"
     },
     {
