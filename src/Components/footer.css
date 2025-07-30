@@ -11,7 +11,7 @@
     background: linear-gradient(135deg, #e926a8, #fad0c4, hwb(318 44% 18%), #fbc2eb, #a18cd1, #fbc2eb);
     border-radius: 15px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    width: 350px;
+    width: 317px;
     margin-left: auto;
     margin-right: auto;
     animation: glowEffect 3s infinite alternate, bounceEffect 2s infinite ease-in-out;
