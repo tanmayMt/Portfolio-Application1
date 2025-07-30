@@ -15,12 +15,13 @@ import NodeJS from './Icons/NodeJS.png';
 import ExpressJS from './Icons/ExpressJS.png';
 import Springboot from './Icons/Springboot.png';
 import ReactJS from './Icons/ReactJS.png';
+import NextJS from './Icons/NextJS.png';
 import Git from './Icons/Git.png';
 import Github from './Icons/Github.png';
 import VSCode from './Icons/VSCode.png';
 import Postman from './Icons/Postman.png';
 import MongoDBCompass from './Icons/MongoDBCompass.png';
-import RestApi from './Icons/RestAPI.png'
+import RestApi from './Icons/RestAPI.png';
 
 // Map skill names to corresponding logos
 const skillLogos: Record<string, string> = {
@@ -39,6 +40,7 @@ const skillLogos: Record<string, string> = {
   Springboot,
   "REST API":RestApi,
   ReactJS,
+  NextJS,
   Git,
   Github,
   "VS Code":VSCode,
@@ -63,6 +65,7 @@ const skillRepos: Record<string, string> = {
   Springboot: "https://github.com/tanmayMt/Student_Management_System_using_Spring_Boot",
   "REST API": "https://github.com/tanmayMt/RESTs_API_Onging_Project",
   ReactJS: "https://github.com/tanmayMt/Let-s_Learn_ReactJS",
+  NextJS: "https://github.com/tanmayMt/Let-s-Learn-NextJs",
   Git: "https://github.com/tanmayMt/Let-s-learn-Git-GitHub",
   Github: "https://github.com/tanmayMt/Let-s-learn-Git-GitHub",
   "VS Code": "https://code.visualstudio.com/",

@@ -1,3 +1,27 @@
+2. Redeploy Using Vercel CLI (If Not Using GitHub)
+   If you deployed manually using Vercel CLI, just run:
+
+sh
+Copy
+Edit
+vercel --prod
+This will redeploy your project with the latest changes.
+
+3. Check Your Live URL
+   Once deployed, visit:
+
+arduino
+Copy
+Edit
+<https://your-project-name.vercel.app>
+Your updated portfolio should be live! 🚀
+
+
+
+
+
+
+
 vercel login
 Vercel CLI 41.3.0
 ? Log in to Vercel Continue with GitHub
@@ -39,20 +63,3 @@ git commit -m "Updated code"
 git push origin main
 Vercel will automatically deploy the latest changes if the project is linked to GitHub.
 
-2. Redeploy Using Vercel CLI (If Not Using GitHub)
-   If you deployed manually using Vercel CLI, just run:
-
-sh
-Copy
-Edit
-vercel --prod
-This will redeploy your project with the latest changes.
-
-3. Check Your Live URL
-   Once deployed, visit:
-
-arduino
-Copy
-Edit
-https://your-project-name.vercel.app
-Your updated portfolio should be live! 🚀

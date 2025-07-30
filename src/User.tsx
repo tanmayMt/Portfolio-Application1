@@ -14,10 +14,11 @@ import DevToolboxApp from './Projects/DevToolboxApp.png';
 
 const Info = {
     name: "Tanmay Samanta",
-    stack: ["Software Engineer", "Compuer Science Student","Mern Stack Developer","Full Stack Developer","Open Source Contributor"],
+    stack: ["Software Developer","Mern Stack Developer","Full Stack Developer","Open Source Contributor","Compuer Science Student"],
     //bio: "I'm a passionate software engineer specialized in crafting efficient and scalable solutions, deliver top-notch web applications, and provide freelance services that exceed client expectations. Let's connect and create something amazing together!",
     bio: "My name is Tanmay Samanta. I am from Kolkata in West Bengal. I did my graduation in BCA from Burdwan University. Currently I am persuming my master's in MCA from makaut University. My short term goal is improve my technical skill and knowledge from my MCA course. My long term goal is to get a job in a reputed organisation where get a chance to use my knowledge and skill to continue in the progress of organisation as well as myself."
 }
+
 
 const ProjectInfo = [
     {
@@ -145,7 +146,7 @@ const SkillInfo = [
     },
     {
        title: "Libraries/Frontend Technologies",
-       skills: ["ReactJS"]
+       skills: ["ReactJS","NextJS"]
     },
     {
         title: "Tools",
@@ -153,6 +154,8 @@ const SkillInfo = [
     },
 
 ]
+
+
 const socialLinks = [
     { link: "https://www.linkedin.com/in/tanmay73", icon: IconBrandLinkedin },
     { link: "https://github.com/tanmayMt", icon: IconBrandGithub },
@@ -187,6 +190,7 @@ const ExperienceInfo = [
     // }
 ]
 
+
 const EducationInfo = [
     {
         degree: "Bachelor of Computer Application",
@@ -201,6 +205,7 @@ const EducationInfo = [
         university: "Maulana Abul Kalam Azad University of Technology (MAKAUT)",
     }
 ];
+
 
 const Slugs = [
     "typescript",
