@@ -166,21 +166,39 @@ const socialLinks = [
 
 const ExperienceInfo = [
     {
+        role: "MERN Stack Developer",
+        company: "Benda Infotech LLP",
+        date: "Present",
+        //desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
+        // skills: ["JavaScript","NodeJS", "React JS", "MySQL", "Git","Java"]
+        skills: ["NodeJS","ExpressJS", "React JS", "MySQL", "MongoDB","Git","Java","DSA","JavaScript"]
+
+    },
+    {
+        role: "Nextjs Developer Intern",
+        company: "Netware Software Pvt.",
+        date: "May 2025 - July 2025",
+        //desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
+        // skills: ["JavaScript","NodeJS", "React JS", "MySQL", "Git","Java"]
+        skills: ["NextJS","ReactJS","JavaScript","MySQL", "MongoDB","Git",]
+
+    },
+    {
         role: "Web Developer",
         company: "Webspidy Software Private Limited",
-        date: "Feb 2023 - Jan 2024",
+        date: "Mar 2023 - Feb 2024",
         //desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
         // skills: ["JavaScript","NodeJS", "React JS", "MySQL", "Git","Java"]
         skills: ["NodeJS","ExpressJS","Springboot", "React JS", "MySQL", "MongoDB","Git","Java","DSA","JavaScript"]
 
     },
-    {
-        role: "Junior Digital Marketing Executive",
-        company: "Sen Hardware & Plywood",
-        date: "Aug 2021 - Mar 2022",
-        // desc: " I leveraged my skills in Java, Selenium, automation testing, and MySQL to design and implement automated testing frameworks, ensuring robust software validation. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
-        skills: ["Facebook & E-mail Advertising Campaigns", "Mail Chimp", "Facebook Pixel"]
-    },
+    // {
+    //     role: "Junior Digital Marketing Executive",
+    //     company: "Sen Hardware & Plywood",
+    //     date: "Aug 2021 - Mar 2022",
+    //     // desc: " I leveraged my skills in Java, Selenium, automation testing, and MySQL to design and implement automated testing frameworks, ensuring robust software validation. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
+    //     skills: ["Facebook & E-mail Advertising Campaigns", "Mail Chimp", "Facebook Pixel"]
+    // },
     // {
     //     role: "Product Listing Associate",
     //     company: "Arnob Grocery Store",
