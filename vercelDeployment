@@ -1,9 +1,5 @@
 2. Redeploy Using Vercel CLI (If Not Using GitHub)
    If you deployed manually using Vercel CLI, just run:
-
-sh
-Copy
-Edit
 vercel --prod
 This will redeploy your project with the latest changes.
 

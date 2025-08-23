@@ -90,7 +90,7 @@
 
 /* Hover highlight effect for date and time */
 .date-highlight:hover{
-    background: linear-gradient(90deg, #00c6ff, hsl(235, 100%, 50%), #00c6ff);
+    background: linear-gradient(90deg, hsl(70, 100%, 50%), hwb(300 0% 0%), #1eff00);
     cursor: pointer;
     transition: background 0.3s ease-in-out;
 }
