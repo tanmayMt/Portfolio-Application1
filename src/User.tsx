@@ -16,7 +16,8 @@ const Info = {
     name: "Tanmay Samanta",
     stack: ["Software Developer","Mern Stack Developer","Full Stack Developer","Open Source Contributor","Compuer Science Student"],
     //bio: "I'm a passionate software engineer specialized in crafting efficient and scalable solutions, deliver top-notch web applications, and provide freelance services that exceed client expectations. Let's connect and create something amazing together!",
-    bio: "My name is Tanmay Samanta. I am from Kolkata in West Bengal. I did my graduation in BCA from Burdwan University. Currently I am persuming my master's in MCA from makaut University. My short term goal is improve my technical skill and knowledge from my MCA course. My long term goal is to get a job in a reputed organisation where get a chance to use my knowledge and skill to continue in the progress of organisation as well as myself."
+    // bio: "My name is Tanmay Samanta. I am from Kolkata in West Bengal. I did my graduation in BCA from Burdwan University. Currently I am persuming my master's in MCA from makaut University. My short term goal is improve my technical skill and knowledge from my MCA course. My long term goal is to get a job in a reputed organisation where get a chance to use my knowledge and skill to continue in the progress of organisation as well as myself."
+    bio: "Hi, I’m Tanmay Samanta from Kolkata, West Bengal. I completed my Master’s in Computer Applications (MCA). I have hands-on experience with Node.js, Express.js, MongoDB, React and Next.js. I specialize in building full-stack web applications, developing scalable back-end systems, designing responsive front-end interfaces, and ensuring performance optimization across the stack."
 }
 
 
