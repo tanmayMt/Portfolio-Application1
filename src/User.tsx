@@ -212,16 +212,16 @@ const ExperienceInfo = [
 
 const EducationInfo = [
     {
-        degree: "Bachelor of Computer Application",
-        percentage: "72.34%",
-        year: "2021",
-        university: "University of Burdwan",
-    },
-    {
-        degree: "Master of Computer Application",
+        degree: "Master of Computer Application (MCA)",
         dgpa: "8.72",
         year: "2024",
         university: "Maulana Abul Kalam Azad University of Technology (MAKAUT)",
+    },
+    {
+        degree: "Bachelor of Computer Application (BCA)",
+        percentage: "72.34%",
+        year: "2021",
+        university: "University of Burdwan",
     }
 ];
 
