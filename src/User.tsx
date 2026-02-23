@@ -127,7 +127,7 @@ const ProjectInfo = [
 const SkillInfo = [
     {
         title: "Programming Languages",
-        skills: ["Java","JavaScript","Python","C++","PHP","C"]
+        skills: ["JavaScript","Java","Python","C++","PHP","C"]
     },
     {
         title: "Data Structure ",
@@ -169,7 +169,7 @@ const ExperienceInfo = [
     {
         role: "MERN Stack Developer",
         company: "Benda Infotech LLP",
-        date: "Present",
+        date: "Aug 2025 - Present",
         //desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
         // skills: ["JavaScript","NodeJS", "React JS", "MySQL", "Git","Java"]
         skills: ["NodeJS","ExpressJS", "React JS", "MySQL", "MongoDB","Git","Java","DSA","JavaScript"]
@@ -178,19 +178,10 @@ const ExperienceInfo = [
     {
         role: "Nextjs Developer Intern",
         company: "Netware Software Pvt.",
-        date: "May 2025 - July 2025",
+        date: "Dec 2024 - Feb 2025",
         //desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
         // skills: ["JavaScript","NodeJS", "React JS", "MySQL", "Git","Java"]
         skills: ["NextJS","ReactJS","JavaScript","MySQL", "MongoDB","Git",]
-
-    },
-    {
-        role: "Web Developer",
-        company: "Webspidy Software Private Limited",
-        date: "Mar 2023 - Feb 2024",
-        //desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
-        // skills: ["JavaScript","NodeJS", "React JS", "MySQL", "Git","Java"]
-        skills: ["NodeJS","ExpressJS","Springboot", "React JS", "MySQL", "MongoDB","Git","Java","DSA","JavaScript"]
 
     },
     // {
@@ -227,14 +218,10 @@ const EducationInfo = [
 
 
 const Slugs = [
-    "typescript",
     "spring",
     "javascript",
     "java",
     "react",
-    "angular",
-    "flutter",
-    "android",
     "html5",
     "css3",
     "springboot",

@@ -66,9 +66,9 @@ const handleSubmit = async () => {
   if (valid) {
     try {
       const response = await axios.post(
-        // "http://localhost:9004/contact", formData);    //https://portfolio-application1.onrender.com/
-        "https://portfolio-application1.onrender.com/contact", formData);
-        // `${process.env.REACT_APP_API_URL}`, formData);   
+        //"http://localhost:9004/contact", formData);    //https://portfolio-application1.onrender.com/
+        //"https://portfolio-application1.onrender.com/contact", formData);
+         `${process.env.REACT_APP_API_URL}`, formData);   
       
       if (response.status === 200) {
         toast.success("Form submitted and API request successful!");
