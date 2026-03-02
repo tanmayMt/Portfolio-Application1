@@ -12,8 +12,8 @@ connectDB();
 
 // ✅ CORS Configuration
 const allowedOrigins = [
-    "https://portfolio-three-lemon-18.vercel.app",
-    "https://portfolio1-three-silk.vercel.app",
+    "https://portfolio-application1.vercel.app",
+
     "http://localhost:3000",
 ];
 
