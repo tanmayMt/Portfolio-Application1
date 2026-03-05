@@ -38,7 +38,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true })); // Add this line
 
 // Routes
-app.get("/",(req,res)=>{
+app.get("/", (req, res) => {
     res.send("<h1>Welcome To Portfolio1 Application Server</h1><br>")
 });
 app.use("/contact", contactRoutes);
