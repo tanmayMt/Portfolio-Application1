@@ -1,5 +1,5 @@
 import { IconBrandGmail } from "@tabler/icons-react";
-import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin,IconPhoneCall } from "@tabler/icons-react";
+import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconPhoneCall } from "@tabler/icons-react";
 import MedicineStore from './Projects/MedicineStore2.png';
 import PortfolioApplication from './Projects/Portfolio.png';
 import StudentManagementSystem from './Projects/StudentManagementSystem.png';
@@ -14,7 +14,7 @@ import DevToolboxApp from './Projects/DevToolboxApp.png';
 
 const Info = {
     name: "Tanmay Samanta",
-    stack: ["Software Developer","Mern Stack Developer","Full Stack Developer","Open Source Contributor","Compuer Science Student"],
+    stack: ["Software Developer", "Mern Stack Developer", "Full Stack Developer", "Open Source Contributor", "Compuer Science Student"],
     //bio: "I'm a passionate software engineer specialized in crafting efficient and scalable solutions, deliver top-notch web applications, and provide freelance services that exceed client expectations. Let's connect and create something amazing together!",
     // bio: "My name is Tanmay Samanta. I am from Kolkata in West Bengal. I did my graduation in BCA from Burdwan University. Currently I am persuming my master's in MCA from makaut University. My short term goal is improve my technical skill and knowledge from my MCA course. My long term goal is to get a job in a reputed organisation where get a chance to use my knowledge and skill to continue in the progress of organisation as well as myself."
     bio: "Hi, I’m Tanmay Samanta from Kolkata, West Bengal. I completed my Master’s in Computer Applications (MCA). I have hands-on experience with Node.js, Express.js, MongoDB, React and Next.js. I specialize in building full-stack web applications, developing scalable back-end systems, designing responsive front-end interfaces, and ensuring performance optimization across the stack."
@@ -27,8 +27,8 @@ const ProjectInfo = [
         desc: "A medicine store system, also called pharmacy management software, is a tool to help run a pharmacy. It typically helps with tasks like inventory control, billing, and keeping track of customer purchases.",
         image: MedicineStore,
         live: true,
-        technologies: ["NodeJS","ExpessJS","React","MongoDB","Git"],
-        link: "https://client-iota-liard.vercel.app",
+        technologies: ["NodeJS", "ExpessJS", "React", "MongoDB", "Git"],
+        link: "https://medicine-store-project-using-mern.vercel.app",
         github: "https://github.com/tanmayMt/Medicine-Store-Project-Using-MERN"
     },
     {
@@ -52,12 +52,12 @@ const ProjectInfo = [
     {
         title: "Blog Post Application",
         desc: "Blog Application using MERN is a full-stack web application built with MongoDB, Express.js, React.js, and Node.js. It allows users to create, read, update, and delete (CRUD) blog posts. Users can add comments, and the app ensures secure data storage using MongoDB. 🚀",
-        image: BlogApplication ,
+        image: BlogApplication,
         live: true,
-        technologies: ["NodeJS","ExpessJS","React","MongoDB","Git"],
+        technologies: ["NodeJS", "ExpessJS", "React", "MongoDB", "Git"],
         link: "https://blog-application-using-mern.vercel.app",
         github: "https://github.com/tanmayMt/blog-application-using-MERN"
-    },    
+    },
     {
         title: "Tour Booking Website",
         desc: "Tour booking system helps tour operators and travel agencies manage tours and reservations. It essentially automates the booking process for both the business and the customer.",
@@ -81,7 +81,7 @@ const ProjectInfo = [
         desc: "A web-based restaurant reservation system where customers can book tables online, and restaurant admins can manage reservations.",
         image: RestaurantReservationSystem,
         live: true,
-        technologies: ["NodeJS","ExpressJS","React","MongoDB","Git"],
+        technologies: ["NodeJS", "ExpressJS", "React", "MongoDB", "Git"],
         link: "https://restaurant-reservation-system-using-mern.vercel.app",
         github: "https://github.com/tanmayMt/Restaurant-Reservation-System-Using-MERN"
     },
@@ -90,7 +90,7 @@ const ProjectInfo = [
         desc: "This web application that personalizes product recommendations based on user quiz results. Built with modern web technologies, it integrates an engaging quiz interface to understand user preferences and provides tailored beauty product suggestions. It combines user interactivity with data-driven personalization to enhance the shopping experience.",
         image: ElevateBeauty,
         live: true,
-        technologies: ["NodeJS","ExpessJS","React","MongoDB","Git"],
+        technologies: ["NodeJS", "ExpessJS", "React", "MongoDB", "Git"],
         link: "https://github.com/tanmayMt/elevate-beauty",
         github: "https://github.com/tanmayMt/elevate-beauty"
     },
@@ -127,11 +127,11 @@ const ProjectInfo = [
 const SkillInfo = [
     {
         title: "Programming Languages",
-        skills: ["JavaScript","Java","Python","C++","PHP","C"]
+        skills: ["JavaScript", "Java", "Python", "C++", "PHP", "C"]
     },
     {
         title: "Data Structure ",
-        skills: ["DSA","Design Analysis & Algorithm"]
+        skills: ["DSA", "Design Analysis & Algorithm"]
     },
     {
         title: "Database ",
@@ -139,15 +139,15 @@ const SkillInfo = [
     },
     {
         title: "Framework",
-        skills: ["NodeJS", "ExpressJS","Springboot" ]
+        skills: ["NodeJS", "ExpressJS", "Springboot"]
     },
     {
         title: "APIs",
         skills: ["REST API"]
     },
     {
-       title: "Libraries/Frontend Technologies",
-       skills: ["ReactJS","NextJS"]
+        title: "Libraries/Frontend Technologies",
+        skills: ["ReactJS", "NextJS"]
     },
     {
         title: "Tools",
@@ -172,7 +172,7 @@ const ExperienceInfo = [
         date: "Aug 2025 - Present",
         //desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
         // skills: ["JavaScript","NodeJS", "React JS", "MySQL", "Git","Java"]
-        skills: ["NodeJS","ExpressJS", "React JS", "MySQL", "MongoDB","Git","Java","DSA","JavaScript"]
+        skills: ["NodeJS", "ExpressJS", "React JS", "MySQL", "MongoDB", "Git", "Java", "DSA", "JavaScript"]
 
     },
     {
@@ -181,7 +181,7 @@ const ExperienceInfo = [
         date: "Dec 2024 - Feb 2025",
         //desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
         // skills: ["JavaScript","NodeJS", "React JS", "MySQL", "Git","Java"]
-        skills: ["NextJS","ReactJS","JavaScript","MySQL", "MongoDB","Git",]
+        skills: ["NextJS", "ReactJS", "JavaScript", "MySQL", "MongoDB", "Git",]
 
     },
     // {
@@ -235,4 +235,4 @@ const Slugs = [
     "git",
     "github"
 ];
-export { Info, ProjectInfo,socialLinks, SkillInfo, ExperienceInfo, EducationInfo, Slugs };
+export { Info, ProjectInfo, socialLinks, SkillInfo, ExperienceInfo, EducationInfo, Slugs };
