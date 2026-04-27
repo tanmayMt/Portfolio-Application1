@@ -10,16 +10,20 @@ const app = express();
 connectDB();
 
 
-// ✅ CORS Configuration
+// CORS configuration for production + local development
 const allowedOrigins = [
     "https://portfolio-application1.vercel.app",
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
     process.env.CLIENT_URL,
-    // "http://localhost:3000",
-];
+].filter(Boolean);
 
 const corsOptions = {
     origin: (origin, callback) => {
-        if (!origin || allowedOrigins.includes(origin)) {
+        const normalizedOrigin = origin ? origin.replace(/\/$/, "") : origin;
+        const isAllowed = !normalizedOrigin || allowedOrigins.includes(normalizedOrigin);
+
+        if (isAllowed) {
             callback(null, true);
         } else {
             callback(new Error("Not allowed by CORS"));
