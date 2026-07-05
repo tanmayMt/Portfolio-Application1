@@ -15,9 +15,7 @@ import DevToolboxApp from './Projects/DevToolboxApp.png';
 const Info = {
     name: "Tanmay Samanta",
     stack: ["Software Developer", "Mern Stack Developer", "Full Stack Developer", "Open Source Contributor", "Compuer Science Student"],
-    //bio: "I'm a passionate software engineer specialized in crafting efficient and scalable solutions, deliver top-notch web applications, and provide freelance services that exceed client expectations. Let's connect and create something amazing together!",
-    // bio: "My name is Tanmay Samanta. I am from Kolkata in West Bengal. I did my graduation in BCA from Burdwan University. Currently I am persuming my master's in MCA from makaut University. My short term goal is improve my technical skill and knowledge from my MCA course. My long term goal is to get a job in a reputed organisation where get a chance to use my knowledge and skill to continue in the progress of organisation as well as myself."
-    bio: "Hi, I’m Tanmay Samanta from Kolkata, West Bengal. I completed my Master’s in Computer Applications (MCA). I have hands-on experience with Node.js, Express.js, MongoDB, React and Next.js. I specialize in building full-stack web applications, developing scalable back-end systems, designing responsive front-end interfaces, and ensuring performance optimization across the stack."
+    bio: "I'm a Full Stack Software Developer with experience in designing and developing modern web applications using the MERN Stack and Next.js. I enjoy transforming complex business requirements into scalable, efficient, and user-friendly digital solutions. My expertise includes frontend development, backend architecture, REST API development, database design, authentication, and application performance optimization. I continuously explore new technologies and best practices to build reliable software that creates real business value."
 }
 
 
@@ -41,6 +39,24 @@ const ProjectInfo = [
         github: "https://github.com/tanmayMt/Doctor-Appointment-System-using_MERN"
     },
     {
+        title: "Tour Booking Website",
+        desc: "Tour booking system helps tour operators and travel agencies manage tours and reservations. It essentially automates the booking process for both the business and the customer.",
+        image: TourBookingWebsite,
+        live: false,
+        technologies: ["React", "Node.js", "MongoDB", "ExpressJS", "Bootstrap"],
+        link: "https://tour-booking-website-using-mern.vercel.app",
+        github: "https://github.com/tanmayMt/Tour-Booking-Project-using-MERN"
+    },
+    {
+        title: "Restaurant Reservation System",
+        desc: "A web-based restaurant reservation system where customers can book tables online, and restaurant admins can manage reservations.",
+        image: RestaurantReservationSystem,
+        live: true,
+        technologies: ["NodeJS", "ExpressJS", "React", "MongoDB", "Git"],
+        link: "https://restaurant-reservation-system-using-mern.vercel.app",
+        github: "https://github.com/tanmayMt/Restaurant-Reservation-System-Using-MERN"
+    },
+    {
         title: "Student Management System",
         desc: "Student Management System is a software application used to manage information about students in an educational institution.",
         image: StudentManagementSystem,
@@ -59,15 +75,6 @@ const ProjectInfo = [
         github: "https://github.com/tanmayMt/blog-application-using-MERN"
     },
     {
-        title: "Tour Booking Website",
-        desc: "Tour booking system helps tour operators and travel agencies manage tours and reservations. It essentially automates the booking process for both the business and the customer.",
-        image: TourBookingWebsite,
-        live: false,
-        technologies: ["React", "Node.js", "PostgresSQL", "Express", "Bootstrap"],
-        link: "https://client-five-kappa-68.vercel.app/",
-        github: "https://github.com/tanmayMt/Tour-Booking-Project-using-MERN"
-    },
-    {
         title: "Dev Toolbox App",
         desc: "A full-stack web application that allows users to paste raw JSON data, validate and format it, and optionally view previously formatted JSON history. 🔧 Tech Stack Frontend: React.js, Axios, Bootstrap Backend: Node.js, Express.js, MongoDB (Mongoose)",
         image: DevToolboxApp,
@@ -75,15 +82,6 @@ const ProjectInfo = [
         technologies: ["Node.js", "Express", "MongoDB", "ReactJS", "Bootstrap"],
         link: "https://dev-toolbox-beige.vercel.app",
         github: "https://github.com/tanmayMt/dev-toolbox-app"
-    },
-    {
-        title: "Restaurant Reservation System",
-        desc: "A web-based restaurant reservation system where customers can book tables online, and restaurant admins can manage reservations.",
-        image: RestaurantReservationSystem,
-        live: true,
-        technologies: ["NodeJS", "ExpressJS", "React", "MongoDB", "Git"],
-        link: "https://restaurant-reservation-system-using-mern.vercel.app",
-        github: "https://github.com/tanmayMt/Restaurant-Reservation-System-Using-MERN"
     },
     {
         title: "Elevate Beauty",
@@ -167,7 +165,7 @@ const socialLinks = [
 
 const ExperienceInfo = [
     {
-        role: "MERN Stack Developer",
+        role: "Full Stack Developer",
         company: "Benda Infotech LLP",
         date: "Aug 2025 - Present",
         //desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
@@ -183,21 +181,7 @@ const ExperienceInfo = [
         // skills: ["JavaScript","NodeJS", "React JS", "MySQL", "Git","Java"]
         skills: ["NextJS", "ReactJS", "JavaScript", "MySQL", "MongoDB", "Git",]
 
-    },
-    // {
-    //     role: "Junior Digital Marketing Executive",
-    //     company: "Sen Hardware & Plywood",
-    //     date: "Aug 2021 - Mar 2022",
-    //     // desc: " I leveraged my skills in Java, Selenium, automation testing, and MySQL to design and implement automated testing frameworks, ensuring robust software validation. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
-    //     skills: ["Facebook & E-mail Advertising Campaigns", "Mail Chimp", "Facebook Pixel"]
-    // },
-    // {
-    //     role: "Product Listing Associate",
-    //     company: "Arnob Grocery Store",
-    //     date: "Jun 2020 - Feb 2021",
-    //     // desc: " I leveraged my skills in Java, Selenium, automation testing, and MySQL to design and implement automated testing frameworks, ensuring robust software validation. I optimized database performance and reliability, and collaborated with cross-functional teams to enhance system operations and ensure seamless integration.",
-    //     skills: ["Amazon & Flipkart Seller", "Microsoft Excel", "Keyword Research"]
-    // }
+    }
 ]
 
 
