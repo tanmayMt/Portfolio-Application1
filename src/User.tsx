@@ -166,7 +166,7 @@ const socialLinks = [
 const ExperienceInfo = [
     {
         role: "Full Stack Developer",
-        company: "Benda Infotech LLP",
+        company: "Benda Infotech",
         date: "Aug 2025 - Present",
         //desc: "I led software development with Spring Boot, React, and Angular, creating scalable microservices and interfaces. I optimized performance by integrating frontend and backend, and enhanced security with RESTful APIs. Collaborating in agile teams, I fostered innovation and efficiency for top-quality solutions.",
         // skills: ["JavaScript","NodeJS", "React JS", "MySQL", "Git","Java"]
