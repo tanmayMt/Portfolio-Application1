@@ -35,8 +35,8 @@ const ProjectInfo = [
         image: DoctorAppointmentSystem,
         live: false,
         technologies: ["React", "Springboot", "MongoDB", "Tailwind", "Tabler-Icons", "Firebase"],
-        link: "https://client-henna-iota-93.vercel.app",
-        github: "https://github.com/tanmayMt/Doctor-Appointment-System-using_MERN"
+        link: "https://doctor-appointment-system-using-mer-tau.vercel.app",
+        github: "https://github.com/tanmayMt/Doctor-Appointment-System-using-MERN.git"
     },
     {
         title: "Tour Booking Website",
