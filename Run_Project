@@ -1,3 +1,11 @@
+# Frontend
 npm start
 
-https://github.com/tanmayMt/Portfolio-Application1
+# Backend (contact form via Nodemailer — no database)
+cd server
+# copy .env.example to .env and set EMAIL_USER / EMAIL_PASS / EMAIL_TO
+npm install
+npm start
+
+# Frontend API URL (optional .env in project root):
+# REACT_APP_API_URL=http://localhost:9004
